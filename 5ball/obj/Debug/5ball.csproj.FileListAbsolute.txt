@@ -1,0 +1,8 @@
+c:\users\klimenta.andreev\documents\visual studio 2015\Projects\5ball\5ball\bin\Debug\5ball.exe.config
+c:\users\klimenta.andreev\documents\visual studio 2015\Projects\5ball\5ball\bin\Debug\5ball.exe
+c:\users\klimenta.andreev\documents\visual studio 2015\Projects\5ball\5ball\bin\Debug\5ball.pdb
+c:\users\klimenta.andreev\documents\visual studio 2015\Projects\5ball\5ball\obj\Debug\_5ball.Form1.resources
+c:\users\klimenta.andreev\documents\visual studio 2015\Projects\5ball\5ball\obj\Debug\_5ball.Properties.Resources.resources
+c:\users\klimenta.andreev\documents\visual studio 2015\Projects\5ball\5ball\obj\Debug\5ball.csproj.GenerateResource.Cache
+c:\users\klimenta.andreev\documents\visual studio 2015\Projects\5ball\5ball\obj\Debug\5ball.exe
+c:\users\klimenta.andreev\documents\visual studio 2015\Projects\5ball\5ball\obj\Debug\5ball.pdb
