@@ -63,29 +63,9 @@ namespace _5ball.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _100Wx75H {
+        internal static System.Drawing.Bitmap blue {
             get {
-                object obj = ResourceManager.GetObject("100Wx75H", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap close_off {
-            get {
-                object obj = ResourceManager.GetObject("close-off", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap close_on {
-            get {
-                object obj = ResourceManager.GetObject("close-on", resourceCulture);
+                object obj = ResourceManager.GetObject("blue", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,9 +83,9 @@ namespace _5ball.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap green1 {
+        internal static System.Drawing.Bitmap HorizontalGrid {
             get {
-                object obj = ResourceManager.GetObject("green1", resourceCulture);
+                object obj = ResourceManager.GetObject("HorizontalGrid", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +93,9 @@ namespace _5ball.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap min_off {
+        internal static System.Drawing.Bitmap orange {
             get {
-                object obj = ResourceManager.GetObject("min-off", resourceCulture);
+                object obj = ResourceManager.GetObject("orange", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,9 +103,29 @@ namespace _5ball.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap min_on {
+        internal static System.Drawing.Bitmap purple {
             get {
-                object obj = ResourceManager.GetObject("min-on", resourceCulture);
+                object obj = ResourceManager.GetObject("purple", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap VerticalGrid {
+            get {
+                object obj = ResourceManager.GetObject("VerticalGrid", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap yellow {
+            get {
+                object obj = ResourceManager.GetObject("yellow", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

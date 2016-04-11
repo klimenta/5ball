@@ -28,56 +28,58 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pbExit = new System.Windows.Forms.PictureBox();
-            this.pbMinimize = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pbExit)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbMinimize)).BeginInit();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            this.lblScore = new System.Windows.Forms.Label();
+            this.linklblBlog = new System.Windows.Forms.LinkLabel();
             this.SuspendLayout();
             // 
-            // pbExit
+            // lblScore
             // 
-            this.pbExit.Image = global::_5ball.Properties.Resources.close_off;
-            this.pbExit.Location = new System.Drawing.Point(444, 1);
-            this.pbExit.Name = "pbExit";
-            this.pbExit.Size = new System.Drawing.Size(32, 32);
-            this.pbExit.TabIndex = 1;
-            this.pbExit.TabStop = false;
-            this.pbExit.Click += new System.EventHandler(this.pbExit_Click);
-            this.pbExit.MouseEnter += new System.EventHandler(this.pbExit_MouseEnter);
-            this.pbExit.MouseLeave += new System.EventHandler(this.pbExit_MouseLeave);
+            this.lblScore.AutoSize = true;
+            this.lblScore.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.lblScore.Font = new System.Drawing.Font("Courier New", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblScore.Location = new System.Drawing.Point(220, 519);
+            this.lblScore.Name = "lblScore";
+            this.lblScore.Size = new System.Drawing.Size(94, 31);
+            this.lblScore.TabIndex = 3;
+            this.lblScore.Text = "00000";
             // 
-            // pbMinimize
+            // linklblBlog
             // 
-            this.pbMinimize.Image = global::_5ball.Properties.Resources.min_off;
-            this.pbMinimize.Location = new System.Drawing.Point(410, 1);
-            this.pbMinimize.Name = "pbMinimize";
-            this.pbMinimize.Size = new System.Drawing.Size(32, 32);
-            this.pbMinimize.TabIndex = 0;
-            this.pbMinimize.TabStop = false;
-            this.pbMinimize.Click += new System.EventHandler(this.pbMinimize_Click);
-            this.pbMinimize.MouseEnter += new System.EventHandler(this.pbMinimize_MouseEnter);
-            this.pbMinimize.MouseLeave += new System.EventHandler(this.pbMinimize_MouseLeave);
+            this.linklblBlog.AutoSize = true;
+            this.linklblBlog.Location = new System.Drawing.Point(396, 537);
+            this.linklblBlog.Name = "linklblBlog";
+            this.linklblBlog.Size = new System.Drawing.Size(125, 13);
+            this.linklblBlog.TabIndex = 4;
+            this.linklblBlog.TabStop = true;
+            this.linklblBlog.Text = "http://blog.iandreev.com";
+            this.linklblBlog.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linklblBlog_LinkClicked);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(485, 407);
-            this.Controls.Add(this.pbExit);
-            this.Controls.Add(this.pbMinimize);
+            this.ClientSize = new System.Drawing.Size(533, 559);
+            this.Controls.Add(this.linklblBlog);
+            this.Controls.Add(this.lblScore);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "Form1";
-            this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.pbExit)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbMinimize)).EndInit();
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "5ball";
+            this.TransparencyKey = System.Drawing.Color.MistyRose;
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.PictureBox pbMinimize;
-        private System.Windows.Forms.PictureBox pbExit;
+        private System.Windows.Forms.LinkLabel linklblBlog;
+        private System.Windows.Forms.Label lblScore;
     }
 }
 

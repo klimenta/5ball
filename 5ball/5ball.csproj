@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>5ball.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -59,18 +62,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -81,22 +84,64 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\min-off.png" />
+    <None Include="Resources\green.bmp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\min-on.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\close-off.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\close-on.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\100Wx75H.jpg" />
+    <None Include="Resources\close-off.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\min-off.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HorizontalGrid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VerticalGrid.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\green.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blue.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\orange.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\purple.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yellow.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\explosion.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BLUE.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GREEN.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ORANGE.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PURPLE.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\YELLOW.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="5ball.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
