@@ -1,0 +1,10 @@
+P:\dotnet\5ball\5ball\bin\x64\Release\5ball.exe.config
+P:\dotnet\5ball\5ball\bin\x64\Release\5ball.exe
+P:\dotnet\5ball\5ball\bin\x64\Release\5ball.pdb
+P:\dotnet\5ball\5ball\obj\x64\Release\5ball.csprojAssemblyReference.cache
+P:\dotnet\5ball\5ball\obj\x64\Release\_5ball.Form1.resources
+P:\dotnet\5ball\5ball\obj\x64\Release\_5ball.Properties.Resources.resources
+P:\dotnet\5ball\5ball\obj\x64\Release\5ball.csproj.GenerateResource.cache
+P:\dotnet\5ball\5ball\obj\x64\Release\5ball.csproj.CoreCompileInputs.cache
+P:\dotnet\5ball\5ball\obj\x64\Release\5ball.exe
+P:\dotnet\5ball\5ball\obj\x64\Release\5ball.pdb

@@ -15,3 +15,12 @@ C:\Users\klimenta.ANDREEV\documents\visual studio 2015\Projects\5ball\5ball\obj\
 C:\Users\klimenta.ANDREEV\documents\visual studio 2015\Projects\5ball\5ball\obj\Debug\5ball.exe
 C:\Users\klimenta.ANDREEV\documents\visual studio 2015\Projects\5ball\5ball\obj\Debug\5ball.pdb
 C:\Users\klimenta.ANDREEV\documents\visual studio 2015\Projects\5ball\5ball\obj\Debug\5ball.csprojResolveAssemblyReference.cache
+P:\dotnet\5ball\5ball\bin\Debug\5ball.exe.config
+P:\dotnet\5ball\5ball\bin\Debug\5ball.exe
+P:\dotnet\5ball\5ball\bin\Debug\5ball.pdb
+P:\dotnet\5ball\5ball\obj\Debug\_5ball.Form1.resources
+P:\dotnet\5ball\5ball\obj\Debug\_5ball.Properties.Resources.resources
+P:\dotnet\5ball\5ball\obj\Debug\5ball.csproj.GenerateResource.cache
+P:\dotnet\5ball\5ball\obj\Debug\5ball.csproj.CoreCompileInputs.cache
+P:\dotnet\5ball\5ball\obj\Debug\5ball.exe
+P:\dotnet\5ball\5ball\obj\Debug\5ball.pdb
